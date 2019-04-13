@@ -36,7 +36,7 @@ class csv_file_analisys1():
     def aboutmenu(self):
         msg.showinfo("About CSV FILES ANALYSIS","Version 0.1\nAnalyzes your csv files")
     def helpmenu(self):
-        pass
+        msg.showinfo("Help" , "1.Import a csv file\n2.Analyze the csv file")
     
     def importfile(self):
         global filed
