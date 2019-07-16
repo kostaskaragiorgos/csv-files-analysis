@@ -55,7 +55,7 @@ class csv_file_analisys1():
         global ansfornull
         filed = filedialog.askopenfilename(initialdir="/",title="Select csv file",
                                                    filetypes=(("csv files","*.csv"),("all files","*.*")))
-        if ".csv" in filed:
+        if filed.endswith('.csv'):
             pandascheck = pd.read_csv(filed)
             if pandascheck.duplicated().any() == True:
                 ansfordup = "YES"
