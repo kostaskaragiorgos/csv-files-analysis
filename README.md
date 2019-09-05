@@ -12,4 +12,8 @@
 <ul>
   <li> IMPORT A CSV FILE </li>
   <li> START ANALYSING </li>
-  </ul>
+</ul>
+
+**Current Version**
+
+<p><img src ="csv file analysis.png" title = "csv file analysis Version"/> </p>
