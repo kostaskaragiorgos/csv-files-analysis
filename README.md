@@ -17,3 +17,11 @@
 **Current Version**
 
 <p><img src ="csv file analysis.png" title = "csv file analysis Version"/> </p>
+
+## Keybinds
+ 
+<ul>
+  <li> Exit(Alt+F4)</li>
+  <li> About(Ctrl+I)</li>
+  <li> Help(Ctrl+F4)</li>
+</ul>
