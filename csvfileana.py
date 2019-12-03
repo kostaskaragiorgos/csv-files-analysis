@@ -16,6 +16,7 @@ class csv_file_analisys1():
         self.menu = Menu(self.master)
         
         self.file_menu = Menu(self.menu,tearoff = 0)
+        self.file_menu.add_command(label="Import a csv file",accelerator = 'Alt+O',command= self.importfile)
         self.file_menu.add_command(label="Exit",accelerator = 'Alt+F4',command = self.exitmenu)
         self.menu.add_cascade(label = "File",menu=self.file_menu)
         
@@ -32,6 +33,7 @@ class csv_file_analisys1():
         self.master.bind('<Alt-F4>',lambda event: self.exitmenu())
         self.master.bind('<Control-F1>',lambda event: self.helpmenu())
         self.master.bind('<Control-i>',lambda event:self.aboutmenu())
+        self.master.bind('<Alt-O>',lambda event:self.importfile())
         
         
         self.welcomemes = Label(self.master,text="Welcome to csv file analysis\n"+
