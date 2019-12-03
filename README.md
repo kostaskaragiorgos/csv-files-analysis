@@ -21,6 +21,7 @@
 ## Keybinds
  
 <ul>
+  <li> Import a csv file(Alt+O) </li>
   <li> Exit(Alt+F4)</li>
   <li> About(Ctrl+I)</li>
   <li> Help(Ctrl+F4)</li>
