@@ -1,7 +1,8 @@
 File menu
-=============
+=======================
+Import a csv file Alt+O
 Exit Alt + F4
-=============
+=======================
 About menu
 ==============
 About Ctrl + I
