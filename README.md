@@ -26,3 +26,15 @@
   <li> About(Ctrl+I)</li>
   <li> Help(Ctrl+F4)</li>
 </ul>
+
+## Second menu
+
+<ul>
+  <li> Exit(Alt+F4)</li>
+  <li> SHOW FIVE FIRST COLUMNS(Ctrl+F)</li>
+  <li> SHOW FIVE LAST COLUMNS(Ctrl+L)</li>
+  <li> SHOW FROM TO COLUMNS(Ctrl+T)</li>
+  <li> SHOW INFO(Alt+I)</li>
+  <li> About(Ctrl+I)</li>
+  <li> Help(Ctrl+F4)</li>
+</ul>
