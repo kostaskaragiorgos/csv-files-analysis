@@ -104,12 +104,15 @@ class csv_Main():
         self.menu2.add_cascade(label="Help",menu=self.help_menu2)
 
         self.master.config(menu=self.menu2)
-        
+        self.master.bind('<Control-f>',lambda event:self.show5fcol())
+        self.master.bind('<Control-l>',lambda event : self.show5last())
+        self.master.bind('<Control-t>',lambda event:self.showfto())
+        self.master.bind('<Alt-i>',lambda event:self.showinfobf())
         self.master.bind('<Alt-F4>',lambda event: self.exitmenu2())
         self.master.bind('<Control-F1>',lambda event: self.helpmenu2())
         self.master.bind('<Control-i>',lambda event:self.aboutmenu2())
         
-        
+   
         self.showh=Button(self.master,text ="SHOW FIVE FIRST COLUMNS"
                           ,command = self.show5fcol)
         self.showh.grid(row = 0 ,column =0 )
