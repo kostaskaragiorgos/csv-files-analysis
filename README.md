@@ -2,6 +2,15 @@
 ## You have to check a bunch of csv files for duplicates , empty cells etc :frowning:
 ## use  csv-file-analysis for instant checking
 
+## FILES
+
+<ul>
+ <li> csv file analysis keybinds 2.txt (keybinds file for the second window menu) </li>
+ <li> csv file analysis keybinds.txt(keybinds file) </li>
+ <li> csv file analysis.png (version file) </li>
+ <li> csvfilean.py(the main file) </li>
+ </ul>
+
 ## Dependencies
 
  <ul>
