@@ -19,7 +19,7 @@ class Csv_File_Analysis():
         self.menu = Menu(self.master)
         self.file_menu = Menu(self.menu, tearoff=0)
         self.file_menu.add_command(label="Insert a csv file", command=self.insertfile)
-        self.file_menu.add_command(label="Close file")
+        self.file_menu.add_command(label="Close file", command=self.closefile)
         self.file_menu.add_command(label="Save analysis")
         self.file_menu.add_command(label="Exit", accelerator='Alt+F4', command=self.exitmenu)
         self.menu.add_cascade(label="File", menu=self.file_menu)
@@ -36,6 +36,14 @@ class Csv_File_Analysis():
         self.master.bind('<Alt-F4>', lambda event: self.exitmenu())
         self.master.bind('<Control-F1>', lambda event: helpmenu())
         self.master.bind('<Control-i>', lambda event: aboutmenu())
+
+    def closefile(self):
+        """ closes the csv file """
+        if not ".csv" in self.filename:
+            msg.showerror("ERROR", "NO CSV TO CLOSE")
+        else:
+            self.filename = ""
+            msg.showinfo("SUSSESS", "YOUR CSV FILE HAS SUCCESFULLY CLOSED")
 
     def insertfile(self):
         """ inserts the csv file """
