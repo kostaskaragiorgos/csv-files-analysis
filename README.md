@@ -67,6 +67,17 @@ All project documentation is located in the `./doc`  folder.
 
 <p><img src="images/radon raw.png" title="Radon raw"/></p>
 
+## Keybinds
+
+<ul>
+  <li> Insert a csv file Ctrl + O </li>
+  <li> Close file Ctrl + F4 </li>
+  <li> Exit Alt + F4 </li>
+  <li> Show analysis Ctrl + F5 </li>
+  <li> About Ctrl + I </li>
+  <li> Help Ctrl + F1 </li>
+</ul>
+
 
 ## License
 
