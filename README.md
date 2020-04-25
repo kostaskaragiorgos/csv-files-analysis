@@ -1,15 +1,15 @@
 # csv-files-analysis
-## You have to check a bunch of csv files for duplicates , empty cells etc :frowning:
-## use  csv-file-analysis for instant checking
+You have to check a bunch of csv files for duplicates , empty cells etc
 
-## FILES
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+
+
+## Files/Folders
 
 <ul>
- <li> csv file analysis keybinds 2.txt (keybinds file for the second window menu) </li>
- <li> csv file analysis keybinds.txt(keybinds file) </li>
- <li> csv file analysis.png (version file) </li>
- <li> csvfilean.py(the main file) </li>
- </ul>
+ <li> images(images folder) </li>
+ <li> csv_file_analysis_v2.py(the main file) </li>
+</ul>
 
 ## Dependencies
 
@@ -18,33 +18,22 @@
   <li> second way to install pandas( pip install pandas ) </li>
 </ul>
 
-## HOW TO USE
-<ul>
-  <li> IMPORT A CSV FILE </li>
-  <li> START ANALYSING </li>
-</ul>
+## Current Version
 
-**Current Version**
+<p><img src ="images/version image.png" title = "csv file analysis Version Image"/> </p>
 
-<p><img src ="csv file analysis.png" title = "csv file analysis Version"/> </p>
 
-## Keybinds
- 
-<ul>
-  <li> Import a csv file(Alt+O) </li>
-  <li> Exit(Alt+F4)</li>
-  <li> About(Ctrl+I)</li>
-  <li> Help(Ctrl+F4)</li>
-</ul>
+## Radon
 
-## Second menu
+### Radon_cc
 
-<ul>
-  <li> Exit(Alt+F4)</li>
-  <li> SHOW FIVE FIRST COLUMNS(Ctrl+F)</li>
-  <li> SHOW FIVE LAST COLUMNS(Ctrl+L)</li>
-  <li> SHOW FROM TO COLUMNS(Ctrl+T)</li>
-  <li> SHOW INFO(Alt+I)</li>
-  <li> About(Ctrl+I)</li>
-  <li> Help(Ctrl+F4)</li>
-</ul>
+### Radon_hal
+
+### Radon_mi
+
+### Radon_raw
+
+
+## License
+
+[GNU GPLv3](https://choosealicense.com/licenses/gpl-3.0/)
