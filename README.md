@@ -34,6 +34,7 @@ You have to check a bunch of csv files for duplicates , empty cells etc
 ## Files/Folders
 
 <ul>
+ <li> doc(documentation folder) </li>
  <li> images(images folder) </li>
  <li> csv_file_analysis_v2.py(the main file) </li>
 </ul>
@@ -43,6 +44,10 @@ You have to check a bunch of csv files for duplicates , empty cells etc
 
 <p><img src ="images/version image.png" title = "csv file analysis Version Image"/> </p>
 
+
+## Documentation
+
+All project documentation is located in the `./doc`  folder.
 
 ## Radon
 
