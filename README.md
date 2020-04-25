@@ -27,11 +27,19 @@ You have to check a bunch of csv files for duplicates , empty cells etc
 
 ### Radon_cc
 
+<p><img src="images/radon cc.png" title = "Radon cc"/></p>
+
 ### Radon_hal
+
+<p><img src="images/radon hal.png" title="Radon hal"/></p>
 
 ### Radon_mi
 
+<p><img src="images/radon mi.png" title="Radon mi"/></p>
+
 ### Radon_raw
+
+<p><img src="images/radon raw.png" title="Radon raw"/></p>
 
 
 ## License
