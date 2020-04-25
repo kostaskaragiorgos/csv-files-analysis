@@ -24,7 +24,7 @@ class Csv_File_Analysis():
         self.file_menu.add_command(label="Exit", accelerator='Alt+F4', command=self.exitmenu)
         self.menu.add_cascade(label="File", menu=self.file_menu)
         self.show_menu = Menu(self.menu, tearoff=0)
-        self.show_menu.add_command(label="Show analysis")
+        self.show_menu.add_command(label="Show analysis",  command=self.show_analysis)
         self.menu.add_cascade(label="Show", menu=self.show_menu)
         self.about_menu = Menu(self.menu, tearoff=0)
         self.about_menu.add_command(label="About", accelerator='Ctrl+I', command=aboutmenu)
@@ -36,6 +36,15 @@ class Csv_File_Analysis():
         self.master.bind('<Alt-F4>', lambda event: self.exitmenu())
         self.master.bind('<Control-F1>', lambda event: helpmenu())
         self.master.bind('<Control-i>', lambda event: aboutmenu())
+    def show_analysis(self):
+        if not ".csv" in self.filename:
+            msg.showerror("ERROR", "NO CSV TO CLOSE")
+        else:
+            msg.showinfo("CSV FILE ANALYSIS", "PATH:"+self.filename + 
+            "\nEMPTY CELLS:"+("Yes" if  self.df.isnull().any else "NO") +
+            "\nDUPLICATES"+("Yes" if self.df.duplicated().any else "NO")+
+            "\nSHAPE:"+ str(self.df.shape) +"\nINDEX:"+str(self.df.index))
+
 
     def closefile(self):
         """ closes the csv file """
