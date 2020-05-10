@@ -40,15 +40,18 @@ class Csv_File_Analysis():
         self.master.bind('<Alt-F4>', lambda event: self.exitmenu())
         self.master.bind('<Control-F1>', lambda event: helpmenu())
         self.master.bind('<Control-i>', lambda event: aboutmenu())
+    def print_analysis(self):
+        msg.showinfo("CSV FILE ANALYSIS", "PATH:"+self.filename + 
+                "\nEMPTY CELLS:"+("Yes" if  self.df.isnull().any else "NO") +
+                "\nDUPLICATES"+("Yes" if self.df.duplicated().any else "NO")+
+                "\nSHAPE:"+ str(self.df.shape) +"\nINDEX:"+str(self.df.index))
     def show_analysis(self):
         """ shows analysis """
         if not ".csv" in self.filename:
             msg.showerror("ERROR", "NO CSV TO CLOSE")
         else:
-            msg.showinfo("CSV FILE ANALYSIS", "PATH:"+self.filename + 
-                         "\nEMPTY CELLS:"+("Yes" if  self.df.isnull().any else "NO") +
-                         "\nDUPLICATES"+("Yes" if self.df.duplicated().any else "NO")+
-                         "\nSHAPE:"+ str(self.df.shape) +"\nINDEX:"+str(self.df.index))
+            self.print_analysis()
+
 
 
     def closefile(self):
