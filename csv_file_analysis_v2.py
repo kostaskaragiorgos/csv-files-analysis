@@ -52,8 +52,6 @@ class Csv_File_Analysis():
         else:
             self.print_analysis()
 
-
-
     def closefile(self):
         """ closes the csv file """
         if not ".csv" in self.filename:
