@@ -26,10 +26,18 @@ You have to check a bunch of csv files for duplicates , empty cells etc
 
 ## Dependencies
 
+To install the dependencies
+
  <ul>
   <li> pandas (conda install -c anaconda pandas) </li>
   <li> second way to install pandas( pip install pandas ) </li>
 </ul>
+
+or run
+
+```shell
+pip install -r requirements.txt
+```
 
 ## Files/Folders
 
