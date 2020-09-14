@@ -17,6 +17,20 @@ else an error message pops up
 
 <p><img src="images/file_menu/file insertion error.png" title="error insertion"/></p>
 
+## Close file
+
+You can close a file using File --> Close file or using Cltr+F4 keybind
+
+<p><img src="images/file_menu/close file menu.png" title = "close file menu"/></p>
+
+if there is no open csv file an error message pops up
+
+<p><img src = "images/file_menu/no file to close.png" title="No fie to close"/></p>
+
+else a success message pops up 
+
+<p><img src="doc images/file/close success.png" title="close successful"/></p>
+
 
 ## Exit
 
