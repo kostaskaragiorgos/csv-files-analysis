@@ -58,6 +58,11 @@ if there is no imported file an error message pops up
 
 <p><img src="images/show_menu/no imported error.png"/></p>
 
+else a window with the analysis pops up
+
+<p><img src="doc images/show/analysis.png"/></p>
+
+
 # ABOUT MENU
 
 ## About
