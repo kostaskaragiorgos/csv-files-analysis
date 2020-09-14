@@ -6,7 +6,16 @@
 
 You can insert a csv file using menu File --> Insert a csv file or using Ctrl+o keybind
 
-<p><img src = "images/file/insert a csv file menu.png" title="inset a csv"/></p>
+<p><img src = "images/file_menu/insert a csv file menu.png" title="inset a csv"/></p>
+
+
+if you insert a csv an success message pops up
+
+<p><img src="images/file_menu/successful insertion.png" title="successful insertion"/></p>
+
+else an error message pops up
+
+<p><img src="images/file_menu/file insertion error.png" title="error insertion"/></p>
 
 
 ## Exit
