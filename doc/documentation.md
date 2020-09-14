@@ -29,7 +29,7 @@ if there is no open csv file an error message pops up
 
 else a success message pops up 
 
-<p><img src="doc images/file/close success.png" title="close successful"/></p>
+<p><img src="images/file_menu/succesfully closed.png" title="close successful"/></p>
 
 
 ## Exit
