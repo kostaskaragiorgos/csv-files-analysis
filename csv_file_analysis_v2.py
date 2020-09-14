@@ -52,7 +52,7 @@ class Csv_File_Analysis():
     def show_analysis(self):
         """ shows analysis """
         if not ".csv" in self.filename:
-            msg.showerror("ERROR", "NO CSV TO CLOSE")
+            msg.showerror("ERROR", "NO CSV FILE IMPORTED")
         else:
             self.print_analysis()
 
