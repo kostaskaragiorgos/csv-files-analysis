@@ -2,6 +2,12 @@
 
 # FILE MENU
 
+## Insert a csv file
+
+You can insert a csv file using menu File --> Insert a csv file or using Ctrl+o keybind
+
+<p><img src = "images/file/insert a csv file menu.png" title="inset a csv"/></p>
+
 
 ## Exit
 
