@@ -45,7 +45,18 @@ An informative message pops up
 
 You press ok to close the app or cancel if you don't want
 
-# About menu
+
+# SHOW MENU
+
+## SHow analysis
+
+You can show the analysis of a file using Show --> Show analysis or using Ctrl + F5 keybind
+
+<p><img src = "images/show_menu/show analysis menu.png" title="show analysis menu"/></p>
+
+# ABOUT MENU
+
+## About
 
 You can show info about the app by using menu About --> About or using Ctrl+i keybind
 
@@ -55,7 +66,9 @@ An informative message pops up
 
 <p><img src="images/about_menu/about.png" title="about menu"/></p> 
 
-# Help menu
+# HELP MENU
+
+## Help
 
 You can show info about the app by using menu Help --> Help or using Alt+F1 keybind
 
