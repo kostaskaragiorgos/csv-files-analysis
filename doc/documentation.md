@@ -54,6 +54,10 @@ You can show the analysis of a file using Show --> Show analysis or using Ctrl +
 
 <p><img src = "images/show_menu/show analysis menu.png" title="show analysis menu"/></p>
 
+if there is no imported file an error message pops up
+
+<p><img src="images/show_menu/no imported error.png"/></p>
+
 # ABOUT MENU
 
 ## About
