@@ -49,6 +49,7 @@ class Csv_File_Analysis():
                      "\nEMPTY CELLS:"+("Yes" if  self.df.isnull().any else "NO") +
                      "\nNUMBER OF EMPTY CELLS:"+str(self.df.isnull().sum().sum())+
                      "\nDUPLICATES"+("Yes" if self.df.duplicated().any else "NO")+
+                     "\nNUMBER OF DUPLICATES:"+str(self.df.duplicated().sum().sum())+
                      "\nSHAPE:"+ str(self.df.shape) +"\nINDEX:"+str(self.df.index)
                      )
     def show_analysis(self):
