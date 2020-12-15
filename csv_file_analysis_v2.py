@@ -65,7 +65,8 @@ class Csv_File_Analysis():
             msg.showerror("ERROR", "NO CSV FILE IMPORTED")
         else:
             if self.df.duplicated().any:
-                msg.showinfo("About Duplicates","There are"+str(self.df.duplicated().sum().sum())+"duplicates.\n")
+                msg.showinfo("About Duplicates","There are"+str(self.df.duplicated().sum().sum())+"duplicates.\n"+
+                             str(self.df.isnull().sum().sum))
             else:
                 msg.showerror("About Duplicates", "There are no duplicates")
 
