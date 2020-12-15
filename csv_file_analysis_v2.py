@@ -28,7 +28,7 @@ class Csv_File_Analysis():
         self.menu.add_cascade(label="File", menu=self.file_menu)
         self.show_menu = Menu(self.menu, tearoff=0)
         self.show_menu.add_command(label="Show Duplicates", command=self.show_duplicates)
-        self.show_menu.add_command(label="Show Empty")
+        self.show_menu.add_command(label="Show Empty", command=self.show_empty)
         self.show_menu.add_command(label="Show Analysis",
                                    accelerator='Ctrl+F5', command=self.show_analysis)
         self.menu.add_cascade(label="Show", menu=self.show_menu)
@@ -45,6 +45,13 @@ class Csv_File_Analysis():
         self.master.bind('<Alt-F4>', lambda event: self.exitmenu())
         self.master.bind('<Control-F1>', lambda event: helpmenu())
         self.master.bind('<Control-i>', lambda event: aboutmenu())
+    
+    def show_empty(self):
+        """ shows info about duplicates"""
+        if not ".csv" in self.filename:
+            msg.showerror("ERROR", "NO CSV FILE IMPORTED")
+        else:
+
     
     def show_duplicates(self):
         """ shows info about duplicates"""
