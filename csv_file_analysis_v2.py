@@ -47,8 +47,10 @@ class Csv_File_Analysis():
         """ shows basic info about the csv file """
         msg.showinfo("CSV FILE ANALYSIS", "PATH:"+self.filename + 
                      "\nEMPTY CELLS:"+("Yes" if  self.df.isnull().any else "NO") +
+                     "\nNUMBER OF EMPTY CELLS:"+str(self.df.isnull().sum().sum())+
                      "\nDUPLICATES"+("Yes" if self.df.duplicated().any else "NO")+
-                     "\nSHAPE:"+ str(self.df.shape) +"\nINDEX:"+str(self.df.index))
+                     "\nSHAPE:"+ str(self.df.shape) +"\nINDEX:"+str(self.df.index)
+                     )
     def show_analysis(self):
         """ shows analysis """
         if not ".csv" in self.filename:
