@@ -46,6 +46,7 @@ class Csv_File_Analysis():
     def print_analysis(self):
         """ shows basic info about the csv file """
         msg.showinfo("CSV FILE ANALYSIS", "PATH:"+self.filename + 
+                     "\nNAMES OF THE COLUMNS:"+str(list(self.df.columns))+
                      "\nEMPTY CELLS:"+("Yes" if  self.df.isnull().any else "NO") +
                      "\nNUMBER OF EMPTY CELLS:"+str(self.df.isnull().sum().sum())+
                      "\nDUPLICATES"+("Yes" if self.df.duplicated().any else "NO")+
