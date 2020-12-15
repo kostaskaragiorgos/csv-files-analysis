@@ -51,6 +51,11 @@ class Csv_File_Analysis():
         if not ".csv" in self.filename:
             msg.showerror("ERROR", "NO CSV FILE IMPORTED")
         else:
+            if self.df.isnull().any():
+                msg.showinfo("About Empty")
+            else:
+                msg.showerror("About Duplicates", "There are no duplicates")
+
 
     
     def show_duplicates(self):
