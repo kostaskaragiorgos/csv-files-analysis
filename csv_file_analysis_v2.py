@@ -51,8 +51,9 @@ class Csv_File_Analysis():
         if not ".csv" in self.filename:
             msg.showerror("ERROR", "NO CSV FILE IMPORTED")
         else:
-            if self.df.isnull().any():
-                msg.showinfo("About Empty")
+            if self.df.isnull().any:
+                msg.showinfo("About Empty", "There are"+str(self.df.isnull().sum().sum())+"empty cells.\n"+
+                             str(self.df.isnull().sum().sum))
             else:
                 msg.showerror("About Duplicates", "There are no duplicates")
 
