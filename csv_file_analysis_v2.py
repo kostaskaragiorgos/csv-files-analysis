@@ -42,6 +42,7 @@ class Csv_File_Analysis():
         self.master.bind('<Control-o>', lambda event: self.insertfile())
         self.master.bind('<Control-F4>', lambda event: self.closefile())
         self.master.bind('<Control-F2>', lambda event: self.show_duplicates())
+        self.master.bind('<Control-F3>', lambda event: self.show_empty())
         self.master.bind('<Control-F5>', lambda event: self.show_analysis())
         self.master.bind('<Alt-F4>', lambda event: self.exitmenu())
         self.master.bind('<Control-F1>', lambda event: helpmenu())
