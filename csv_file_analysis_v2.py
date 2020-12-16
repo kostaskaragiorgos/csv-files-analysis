@@ -28,7 +28,7 @@ class Csv_File_Analysis():
         self.menu.add_cascade(label="File", menu=self.file_menu)
         self.show_menu = Menu(self.menu, tearoff=0)
         self.show_menu.add_command(label="Show Duplicates", accelerator='Ctrl+F4', command=self.show_duplicates)
-        self.show_menu.add_command(label="Show Empty", command=self.show_empty)
+        self.show_menu.add_command(label="Show Empty", accelerator='Ctrl+F3', command=self.show_empty)
         self.show_menu.add_command(label="Show Analysis",
                                    accelerator='Ctrl+F5', command=self.show_analysis)
         self.menu.add_cascade(label="Show", menu=self.show_menu)
