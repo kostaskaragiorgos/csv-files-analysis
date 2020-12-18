@@ -6,7 +6,9 @@ Exit Alt + F4
 ==============
 Show menu
 =======================
-Show analysis Ctrl + F5
+Show Duplicates Ctrl+F2
+Show Empty Cltr+F3
+Show Analysis Ctrl + F5
 =======================
 About menu
 ==============
