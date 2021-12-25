@@ -23,7 +23,8 @@ class Csv_File_Analysis():
                                    accelerator='Ctrl+O', command=self.insertfile)
         self.file_menu.add_command(label="Close file",
                                    accelerator='Ctrl+F4', command=self.closefile)
-        self.file_menu.add_command(label="Save analysis")
+        self.file_menu.add_command(label="Save analysis",
+                                   accelerator='Ctrl+S', command=self.save_analysis)
         self.file_menu.add_command(label="Exit", accelerator='Alt+F4', command=self.exitmenu)
         self.menu.add_cascade(label="File", menu=self.file_menu)
         self.show_menu = Menu(self.menu, tearoff=0)
@@ -47,6 +48,9 @@ class Csv_File_Analysis():
         self.master.bind('<Alt-F4>', lambda event: self.exitmenu())
         self.master.bind('<Control-F1>', lambda event: helpmenu())
         self.master.bind('<Control-i>', lambda event: aboutmenu())
+    
+    def save_analysis(self):
+        pass
     
     def show_empty(self):
         """ shows info about duplicates"""
